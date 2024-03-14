@@ -2,7 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import io from "socket.io-client";
 
-const socket=io.connect("http://localhost:5000");
+const socket=io.connect("https://only-siblings-chat-app-be.onrender.com/");
 
 
 const Working = (props) => {
